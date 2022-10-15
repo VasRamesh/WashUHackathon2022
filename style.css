@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.container {
+}
+
+body {
+  background-image: linear-gradient(180deg, orange, yellow);
+  font-family: sans-serif;
+  line-height: 1.4;
+  position: relative;
+}
+
+.product-img {
+}
+
+.product {
+  border: 5px solid black;
+  width: 750px;
+  /* margin: 50px auto; */
+  font-weight: 100;
+
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 0;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  /* background-color: #f7f7f7; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  grid-column: 1 / -1;
+}
+
+h2::before {
+  /* content: "SALE"; */
+  /* background-color: #ec2f2f; */
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 7px 15px;
+  letter-spacing: 2px;
+
+  position: absolute;
+  top: -15px;
+  left: 285px;
+}
+
+.product-info {
+  /*   margin-top: 20px; */
+  flex: 1;
+  margin-top: 20px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 24px;
+  color: #EB001B; 
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+}
+
+.product-description {
+  margin-bottom: 10px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.product-colors {
+  display: flex;
+  gap: 10px;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+.color-red {
+  background-color: #ec2f2f;
+}
+.color-yellow {
+  background-color: #f0bf1e;
+}
+.color-green {
+  background-color: #90cc20;
+}
+.color-brown {
+  background-color: #885214;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.details-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+  font-size: 16px; 
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+.add-cart {
+  /* background-color: black; */
+  border: none;
+  /* color: white; */
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+
+  grid-column: 1 / -1;
+}
+
+.add-cart:hover {
+  background-color: #EB001B;
+  color: black;
+  border-top: 4px black solid;
+}
