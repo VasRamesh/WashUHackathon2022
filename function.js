@@ -9,8 +9,8 @@ function callBack(){
 
 function ajaxCallBack(event){
   result = event.target.responseText;
-  treeNumber = result.trees
-  carbonNmber = result.carbonSequestered
+  tree = result.trees
+  carbon = result.carbonSequestered
 }
 
 function roundUp(){
