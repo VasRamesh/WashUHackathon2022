@@ -1,57 +1,66 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      callback;
+    </script>
+  </head>
+  <body>
+    <img
+      class="logo"
+      src="/images/Mastercard-logo.svg.png"
+      width="32"
+      height="25"
+    />
+    <div class="master-tree">
+      <h2 class="title">
+        Round up your purchase with
+        <span style="color: #eb001b">Master Tree</span>
+      </h2>
+      <img
+        src="/images/white-tree.png"
+        width="250"
+        height="250"
+        class="product-img"
+      />
 
-<head>
-  <link rel="stylesheet" href="style.css" >
-  <script>
-    callback
+      <div class="description">
+        <div class="product-price">
+          <p class="amount"><strong>$0.99</strong></p>
+          <!-- <p class="rounded-up">Rounded up</p> -->
+        </div>
 
+        <button class="round-up-purchase">Round Up</button>
 
-
-
-  </script>
-</head>
-<body> 
-  <article class="product">
-    
-    <h2 class="product-title"><img class="logo" src = "/images/Mastercard-logo.svg.png" width = "32" height = "25"/>Round up your purchase with <span style = "color:#EB001B">Master Round-up</span></h2>
-
-    <!-- <img
-      src="/images/treeTester2.png"
-      width="250"
-      height="250"
-      class="product-img"
-    /> -->
-
-    <div class="product-info">
-      <div class="product-price">
-        <p class="price"><strong>$0.99</strong></p>
-        <p class="shipping">Rounded up</p>
-        <p></p>
+        <p class="text-description">
+          Rounding up to the nearest dollar will create a lasting impact on the
+          enviornment. Please consider helping the environment with each
+          purchase.
+        </p>
+        <p>
+          <a
+            class="more-info"
+            href="https://www.mastercard.com/global/en/vision/corp-responsibility/sustainability.html"
+            target="_blank"
+          >
+            More information &rarr;
+          </a>
+        </p>
       </div>
 
-      <p class="product-description">
-        Rounding up to the nearest dollar will create a lasting impact on the enviornment. Please consider helping the environment with each purchase. 
-      </p>
-      <p>
-        <a class="more-info" href="https://www.mastercard.com/global/en/vision/corp-responsibility/sustainability.html" target="_blank">
-          More information &rarr;
-        </a>
-      </p>
+      <div class="your-impact">
+        <h3 class="impact-title">Your Impact</h3>
 
-      <div class="product-colors"></div>
+        <ul class="impact-list">
+          <li>
+            Carbon sequestered:
+            <strong style="color: yellow">X</strong> g
+          </li>
+          <li>Trees saved: <strong style="color: yellow">X</strong> trees</li>
+          <li>Cows saved: <strong style="color: yellow">X</strong> Cows</li>
+        </ul>
+      </div>
     </div>
-
-    <div class="product-details">
-      <h3 class="details-title">Your Impact</h3>
-
-      <ul class="details-list">
-        <li>Carbon sequestered: <span style = "color:#EB001B">X</span> g</li>
-        <li>Trees saved: <span style = "color:#EB001B">X</span> trees</li>
-        <li>Cows saved: <span style = "color:#EB001B">X</span> Cows</li>
-      </ul>
-    </div>
-    
-    <button class="add-cart">Round up your purchase</button>
-  </article>
-</body>
+  </body>
+</html>
