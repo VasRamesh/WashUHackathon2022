@@ -9,7 +9,7 @@ MasterTree is a chrome extension that uses Mastercard's Transaction Notification
 # How MasterTree Works
 After a purchase has been made involving your Mastercard Card, the Mastercard Transaction Notification API will report that a transaction has been made and a chrome extension will activate a pop-up. This pop-up will alert the user that their recent purchase was X amount of money and will ask if they would like to round up to the nearest dollar. The difference will be donated and Mastercard's Priceless Planet Data Services API will display the amount of carbon sequestered and trees planted as a result of their donation. The user can choose to keep rounding up to whatever amount they'd like, increasing by a dollar everytime, and after they have decided what to round their donation towards, they will finalize their payment and their card will be charged accordingly.
 <br> <ins> MasterTree in action: </ins>
-
+<br><img src="MasterTreeGif.gif" width="800" height="400"/>
 
 # Files for MasterTree:
 - <strong>PricelessPlanetAPIDemo folder:</strong> contains the java files that implement the Mastercard Priceless Plant Data Services API that returns a JSON formatted file
