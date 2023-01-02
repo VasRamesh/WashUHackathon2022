@@ -5,9 +5,7 @@
   "version": "1.0",
   "permissions": [
     "storage",
-    "tabs",
-    "http://localhost:8080/func1?param1=200&param2=USD",
-    "*://localhost:*/*"
+    "tabs"
   ],
   "action": {
     "default_popup": "popup.html"
