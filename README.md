@@ -2,6 +2,7 @@
 <ins>Team</ins>: Eric You, Vas Ramesh, Sanketh Gudapati, and Noah Li
 <br> For Hack WashU, our team decided to create a chrome extension that fulfills the sustainability track while utilizing Mastercard's APIs
 <br> <ins>Placement</ins>: <strong>First place</strong> for emerging division, <strong>Third place</strong> overall
+<br><ins>Devpost:</ins> https://devpost.com/software/master-tree
 
 # About MasterTree
 MasterTree is a chrome extension that uses Mastercard's Transaction Notification API and Priceless Planet Data Services API to enforce the idea that even donating the tiniest amount can have a large impact on the environment.
